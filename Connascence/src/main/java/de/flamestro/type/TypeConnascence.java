@@ -1,6 +1,6 @@
-package de.flamestro.name;
+package de.flamestro.type;
 
-public class NameConnascence {
+public class TypeConnascence {
     static class Time{
         int hour;
         int minute;

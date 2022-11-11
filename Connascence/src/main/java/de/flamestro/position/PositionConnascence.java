@@ -1,6 +1,7 @@
-package de.flamestro.name;
+package de.flamestro.position;
 
-public class NameConnascence {
+public class PositionConnascence {
+
     static class Time{
         int hour;
         int minute;
@@ -11,6 +12,10 @@ public class NameConnascence {
             this.minute = minute;
             this.second = second;
         }
+    }
+
+    public PositionConnascence() {
+        var time = new Time(12, 12, 12);
     }
 }
 
